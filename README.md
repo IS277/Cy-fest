@@ -22,21 +22,24 @@ CY-Fest est conçu pour simplifier l'organisation et la gestion de concert. Il p
 ### Étapes d'installation
 
 1. Clonez le dépôt :
-
+    ```bash
     git clone https://github.com/IS277/Cy-fest.git
     cd cy-fest
-
-2. Compilez le projet :
+    ```
     
+2. Compilez le projet :
+    ```bash
     make
-
+    ```
+    
 ## Utilisation
 
 Pour exécuter l'application :
-
-./exec
-
+    ```bash
+    ./exec
+    ```
+    
 ## Auteurs
 
-- *Alex Mikolajewski* - (https://github.com/Strasox)
-- *Iyed SOUISSI* - (https://github.com/IS277)
+- **Alex Mikolajewski** - (https://github.com/Strasox)
+- **Iyed SOUISSI** - (https://github.com/IS277)
