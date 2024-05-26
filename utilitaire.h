@@ -55,19 +55,19 @@ typedef struct {
 
 // festivalier
 int afficher_statut_salle(int statut);
-void reserver();
+void reserver(void);
 
 // manager
 void creer_salle(void);
-void supprimer_salle();
-void modifier_salle();
+void supprimer_salle(void);
+void modifier_salle(void);
 
 // fonction principale
 void liberer_salle(Salle *salle);
-void vide_buffer();
+void vide_buffer(void);
 void afficheSalle(Concert *tab, int nbSalle);
 char *texte_a_minuscule(char texte[]);
-int afficher_liste_salles();
+int afficher_liste_salles(void);
 Concert *recup_information_salle(char *nomFichier);
 void ecrireFichier(const char *nomFichier, Concert *salle);
 #endif
