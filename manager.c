@@ -458,7 +458,7 @@ Concert *recup_information_salle(char *nomFichier) {
     free(salle);
     exit(1);
   }
-  /*Degugage
+  /*Débugage
   printf("%d",salle->s.nbr_rangées[0]);
   printf("%d",salle->s.nbr_places[0]);
   printf("%f\n",salle->s.prix[0]);
