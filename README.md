@@ -35,7 +35,7 @@ CY-Fest est conçu pour simplifier l'organisation et la gestion de concert. Il p
 ## Utilisation
 
 Pour exécuter l'application :
-    ```bash
+    ```
     ./exec
     ```
     
